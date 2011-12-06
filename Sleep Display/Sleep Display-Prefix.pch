@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Sleep Display' target in the 'Sleep Display' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

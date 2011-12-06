@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66891FC148E50E80028BD10 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66891FB148E50E80028BD10 /* Cocoa.framework */; };
+		F6689208148E50E80028BD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6689207148E50E80028BD10 /* main.m */; };
+		F668920F148E50E80028BD10 /* SleepDisplayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */; };
+		F668921B148E54430028BD10 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F668921A148E54430028BD10 /* IOKit.framework */; };
+		F668921D148E56F90028BD10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F668921C148E56F90028BD10 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F66891F7148E50E80028BD10 /* Sleep Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66891FB148E50E80028BD10 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F66891FE148E50E80028BD10 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F66891FF148E50E80028BD10 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F6689200148E50E80028BD10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6689203148E50E80028BD10 /* Sleep Display-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sleep Display-Info.plist"; sourceTree = "<group>"; };
+		F6689207148E50E80028BD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6689209148E50E80028BD10 /* Sleep Display-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sleep Display-Prefix.pch"; sourceTree = "<group>"; };
+		F668920D148E50E80028BD10 /* SleepDisplayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepDisplayAppDelegate.h; sourceTree = "<group>"; };
+		F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepDisplayAppDelegate.m; sourceTree = "<group>"; };
+		F668921A148E54430028BD10 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		F668921C148E56F90028BD10 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66891F4148E50E80028BD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F668921B148E54430028BD10 /* IOKit.framework in Frameworks */,
+				F66891FC148E50E80028BD10 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66891EC148E50E80028BD10 = {
+			isa = PBXGroup;
+			children = (
+				F668921A148E54430028BD10 /* IOKit.framework */,
+				F6689201148E50E80028BD10 /* Sleep Display */,
+				F66891FA148E50E80028BD10 /* Frameworks */,
+				F66891F8148E50E80028BD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66891F8148E50E80028BD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66891F7148E50E80028BD10 /* Sleep Display.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66891FA148E50E80028BD10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66891FB148E50E80028BD10 /* Cocoa.framework */,
+				F66891FD148E50E80028BD10 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66891FD148E50E80028BD10 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66891FE148E50E80028BD10 /* AppKit.framework */,
+				F66891FF148E50E80028BD10 /* CoreData.framework */,
+				F6689200148E50E80028BD10 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F6689201148E50E80028BD10 /* Sleep Display */ = {
+			isa = PBXGroup;
+			children = (
+				F668920D148E50E80028BD10 /* SleepDisplayAppDelegate.h */,
+				F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */,
+				F668921C148E56F90028BD10 /* MainMenu.xib */,
+				F6689202148E50E80028BD10 /* Supporting Files */,
+			);
+			path = "Sleep Display";
+			sourceTree = "<group>";
+		};
+		F6689202148E50E80028BD10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6689203148E50E80028BD10 /* Sleep Display-Info.plist */,
+				F6689207148E50E80028BD10 /* main.m */,
+				F6689209148E50E80028BD10 /* Sleep Display-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66891F6148E50E80028BD10 /* Sleep Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6689215148E50E80028BD10 /* Build configuration list for PBXNativeTarget "Sleep Display" */;
+			buildPhases = (
+				F66891F3148E50E80028BD10 /* Sources */,
+				F66891F4148E50E80028BD10 /* Frameworks */,
+				F66891F5148E50E80028BD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep Display";
+			productName = "Sleep Display";
+			productReference = F66891F7148E50E80028BD10 /* Sleep Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66891EE148E50E80028BD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "succont e.K.";
+			};
+			buildConfigurationList = F66891F1148E50E80028BD10 /* Build configuration list for PBXProject "Sleep Display" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F66891EC148E50E80028BD10;
+			productRefGroup = F66891F8148E50E80028BD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66891F6148E50E80028BD10 /* Sleep Display */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66891F5148E50E80028BD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F668921D148E56F90028BD10 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66891F3148E50E80028BD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6689208148E50E80028BD10 /* main.m in Sources */,
+				F668920F148E50E80028BD10 /* SleepDisplayAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6689213148E50E80028BD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F6689214148E50E80028BD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6689216148E50E80028BD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleep Display/Sleep Display-Prefix.pch";
+				INFOPLIST_FILE = "Sleep Display/Sleep Display-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6689217148E50E80028BD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sleep Display/Sleep Display-Prefix.pch";
+				INFOPLIST_FILE = "Sleep Display/Sleep Display-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66891F1148E50E80028BD10 /* Build configuration list for PBXProject "Sleep Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6689213148E50E80028BD10 /* Debug */,
+				F6689214148E50E80028BD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6689215148E50E80028BD10 /* Build configuration list for PBXNativeTarget "Sleep Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6689216148E50E80028BD10 /* Debug */,
+				F6689217148E50E80028BD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66891EE148E50E80028BD10 /* Project object */;
+}
