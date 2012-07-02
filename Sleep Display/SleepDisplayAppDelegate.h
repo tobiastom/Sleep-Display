@@ -10,6 +10,4 @@
 
 @interface SleepDisplayAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-
 @end

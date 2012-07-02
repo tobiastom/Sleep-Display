@@ -11,7 +11,6 @@
 		F6689208148E50E80028BD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6689207148E50E80028BD10 /* main.m */; };
 		F668920F148E50E80028BD10 /* SleepDisplayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */; };
 		F668921B148E54430028BD10 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F668921A148E54430028BD10 /* IOKit.framework */; };
-		F668921D148E56F90028BD10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F668921C148E56F90028BD10 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		F668920D148E50E80028BD10 /* SleepDisplayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepDisplayAppDelegate.h; sourceTree = "<group>"; };
 		F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepDisplayAppDelegate.m; sourceTree = "<group>"; };
 		F668921A148E54430028BD10 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		F668921C148E56F90028BD10 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 			children = (
 				F668920D148E50E80028BD10 /* SleepDisplayAppDelegate.h */,
 				F668920E148E50E80028BD10 /* SleepDisplayAppDelegate.m */,
-				F668921C148E56F90028BD10 /* MainMenu.xib */,
 				F6689202148E50E80028BD10 /* Supporting Files */,
 			);
 			path = "Sleep Display";
@@ -151,7 +148,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F668921D148E56F90028BD10 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +252,7 @@
 				F6689217148E50E80028BD10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

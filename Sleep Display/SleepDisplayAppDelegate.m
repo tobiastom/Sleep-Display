@@ -11,8 +11,6 @@
 
 @implementation SleepDisplayAppDelegate
 
-@synthesize window = _window;
-
 - (void)dealloc {
     [super dealloc];
 }
