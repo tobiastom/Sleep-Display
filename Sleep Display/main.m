@@ -8,6 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "SleepDisplayAppDelegate.h"
+
 int main(int argc, char *argv[]) {
-    return NSApplicationMain(argc, (const char **)argv);
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+
+    SleepDisplayAppDelegate *appDelegate = [[SleepDisplayAppDelegate alloc] init];
+    [[NSApplication sharedApplication] setDelegate:appDelegate];
+
+    int status = NSApplicationMain(argc, (const char **)argv);
+
+    [pool drain];
+    return status;
 }
